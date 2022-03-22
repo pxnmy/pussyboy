@@ -1,0 +1,17 @@
+local p = game.Players.LocalPlayer
+local Access = false
+
+userids = {
+3358515769,
+144602659,
+3407520303
+}
+
+for i,v in pairs (userids) do
+    if p.UserId == v then
+        Access = true
+    print("Access Enabled")
+end
+end
+ if Access == false then p:kick("Pussyboy (fat fuck your mum likes me)")
+ end
